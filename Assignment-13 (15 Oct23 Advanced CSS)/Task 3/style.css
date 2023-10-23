@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#loader {
+  width: 100px;
+  height: 100px;
+  border: 12px solid rgba(0, 0, 0, 0.05);
+  border-top-color: rgb(2, 162, 255);
+  border-radius: 50%;
+  animation: loader_rotate 1s ease-in-out infinite;
+}
+
+@keyframes loader_rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

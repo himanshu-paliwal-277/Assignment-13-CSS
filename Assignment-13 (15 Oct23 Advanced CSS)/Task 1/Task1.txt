@@ -1,0 +1,19 @@
+Var() Function in CSS :-
+
+The var() function is used to insert the value of a CSS variable in a particular element. 
+
+The CSS variables are just like simple variables of any other programming language. These variables are used to store values (like - colors) and have a scope in which the variables can be used. A variable is defined by using two dashes(–-) at the beginning and then the name which is case-sensitive. The benefit of variables is that it allows the same values to be reused at multiple places and updated/modified from one place. 
+
+The variable is defined at a root level so at any level it can be access (its similar to the global variable). This CSS variable is access by using the var(function). As seen in below example.
+
+Example:-
+
+:root {
+    --primaryColor: black;
+    --secondaryColor: white;
+}
+
+h1 {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+}

@@ -1,0 +1,24 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: #00b7ff;
+    --secondaryColor: #6c757d;
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 6px 10px;
+}
+
+#primaryBtn {
+    background-color: var(--primaryColor);
+}
+
+#secondaryBtn {
+    background-color: var(--secondaryColor);
+}
